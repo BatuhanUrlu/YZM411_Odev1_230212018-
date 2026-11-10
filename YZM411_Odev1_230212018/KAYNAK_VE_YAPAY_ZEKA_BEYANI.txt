@@ -1,0 +1,19 @@
+YZM 411 - Ödev 1: Kaynak ve Yapay Zekâ Beyanı
+Öğrenci: Batuhan Kadir Urlu / 230212018
+
+Veri kaynakları: normal.jpg, golge.jpg ve lamba.jpg.
+Ödev yönergesi: YZM411_Odev1_Renk_Aydinlatma_Ornekleme.pdf.
+Harici veri kümesi kullanılmadı.
+
+Kullanılan üretici yapay zekâ aracı: OpenAI ChatGPT (GPT-6).
+Kullanım amacı: Hipotezlerin yazılması, analiz kodunun gözden
+geçirilip sadeleştirilmesi, rapor metninin ve PDF oluşturma
+kodunun düzenlenmesi.
+Etkilenen dosyalar: main.py ve PDF raporu.
+Doğrulama: Üç gerçek fotoğrafla kod çalıştırıldı. Örnek RGB
+pikselleri, maske piksel sayıları, görüntü ortalamaları ve
+küçültülmüş görüntü boyutları yeniden ölçüldü. Çıktılar
+CSV dosyalarına kaydedildi ve PDF'nin iki sayfa olduğu kontrol edildi.
+
+Fotoğraflardaki pozlama ve beyaz dengesi için EXIF verisi yoktur.
+Bu nedenle sonuçları yalnızca aydınlatmanın değişimine bağlamıyorum.

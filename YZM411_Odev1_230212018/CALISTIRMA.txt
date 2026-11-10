@@ -1,0 +1,53 @@
+YZM 411 - BİLGİSAYARLI GÖRÜ - ÖDEV 1
+Renk, Aydınlatma ve Örnekleme
+Öğrenci: Batuhan Kadir Urlu
+Öğrenci No: 230212018
+
+GİRİŞ DOSYALARI
+normal.jpg
+golge.jpg
+lamba.jpg
+
+ÇALIŞMA ORTAMI
+Python      : 3.13.5
+NumPy       : 2.3.5
+OpenCV      : 4.13.0.92
+Pillow      : 12.3.0
+ReportLab   : 4.4.9
+
+GEREKLİ PAKETLERİN KURULUMU
+pip install numpy opencv-python pillow reportlab
+
+ÇALIŞTIRMA SIRASI
+1. Fotoğrafları main.py ile aynı klasöre yerleştirin.
+2. main.py
+
+DENEY ADIMLARI
+H1 - Sayısal yapı: Görüntü boyutu, veri türü, değer aralığı, sabit piksel koordinatları ve RGB/BGR sırası.
+H2 - Renk eşikleme: Normal görüntüden belirlenen sabit mavi ve beyaz RGB/HSV eşikleriyle farklı aydınlatmaların karşılaştırılması.
+H3 - Parlaklık ve gama: b=+40; gamma=0.5 ve gamma=2.0.
+H4 - Küçültme: Her iki boyutta 1/4; INTER_NEAREST ve INTER_AREA ile küçültme, INTER_NEAREST ile geri büyütme.
+
+SABİT PARAMETRELER
+Parametreler analiz.py dosyasının başındadır:
+- PIKSELLER: Örnek piksel koordinatları (x, y).
+- ESIKLER: Mavi ve beyaz yüzeyler için RGB/HSV eşikleri.
+- YAZI_BOLGESI: Yazılı kesit koordinatları (x1, y1, x2, y2).
+- PARLAKLIK = 40
+- GAMALAR = (0.5, 2.0)
+- KUCULTME = 4
+
+ÇIKTILAR
+ciktilar klasöründe üç CSV sonuç tablosu, altı maske, parlaklık/gama görselleri ve yazılı kesit karşılaştırmaları üretilir.
+Maske alan yüzdesi bir doğruluk veya başarı puanı değildir.
+
+RAPOR
+PDF rapor ödev yönergesine göre en fazla iki sayfa ve dikey A4 düzenindedir.
+Raporda üç özgün fotoğraf, altı maske, karşılaştırma sonuçları, tahminler ve ölçüm yorumları yer almalıdır.
+Overleaf'te kullanılan LaTeX sürümünün derleyicisi XeLaTeX olmalıdır.
+LaTeX görsellerinin isimleri ve kullanılan sayısal sonuçlar, analiz.py tarafından gerçekten üretilen çıktılarla eşleştirilmelidir.
+
+KAYNAK VE YAPAY ZEKÂ BEYANI
+YZM 411 Ödev 1 yönergesi ve Hafta 1-2 ders konuları esas alınmıştır.
+Kod ve ilk rapor düzenlemeleri için Google Gemini (Gemini 3 Flash), LaTeX rapor düzenlemesi için ChatGPT (GPT-6) kullanılmıştır.
+Etkilenen dosyalar analiz kodu ve rapor metnidir. Kullanılan sayısal sonuçlar konsol/CSV çıktıları ve görseller üzerinden doğrulanmalıdır.
